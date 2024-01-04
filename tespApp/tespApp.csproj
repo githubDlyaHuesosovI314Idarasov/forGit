@@ -53,5 +53,8 @@
     <Content Include=".gitIgnore" />
     <Content Include="listTODO.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="folder\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
